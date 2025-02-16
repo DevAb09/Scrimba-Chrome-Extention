@@ -1,7 +1,8 @@
 **MyLeads Chrome Extension**
 
 This is a simple Chrome Extension that allows you to save and manage your favorite links. You can add links manually by typing them into the input field, or you can add the link of the current tab by clicking on the "Save Tab" button. You can also delete all your saved links by double-clicking on the "Delete All" button.
-How it Works 💻
+
+**How it Works **💻
 
 The Chrome Extension uses the Chrome Extension API to access the active tab's URL and saves the links in the extension's local storage. The render() function is used to display the saved links in an unordered list below the input field. The user can add new links to the list by typing them into the input field and clicking on the "Save" button. The user can also save the link of the active tab by clicking on the "Save Tab" button. The user can delete all the saved links by double-clicking on the "Delete All" button.
 
@@ -17,12 +18,14 @@ Install the Extension
     The extension should now be installed and visible in your list of Chrome extensions.
 
 Note: Manually installing extensions can be less secure than installing them from the Chrome Web Store, so it's important to only install extensions from trusted sources.
+
 **How To Save a Link**
 
 To save a link, type the URL into the input field and click on the "Save" button. Alternatively, you can click on the "Save Tab" button to save the link of the current tab.
 View Saved Links
 
 All your saved links will be displayed in a list below the input field.
+
 **How To Delete All Links**
 
 To delete all your saved links, double-click on the "Delete All" button.
