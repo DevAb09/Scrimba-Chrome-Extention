@@ -2,7 +2,7 @@
 
 This is a simple Chrome Extension that allows you to save and manage your favorite links. You can add links manually by typing them into the input field, or you can add the link of the current tab by clicking on the "Save Tab" button. You can also delete all your saved links by double-clicking on the "Delete All" button.
 
-**How it Works **💻
+**How it Works **💻****
 
 The Chrome Extension uses the Chrome Extension API to access the active tab's URL and saves the links in the extension's local storage. The render() function is used to display the saved links in an unordered list below the input field. The user can add new links to the list by typing them into the input field and clicking on the "Save" button. The user can also save the link of the active tab by clicking on the "Save Tab" button. The user can delete all the saved links by double-clicking on the "Delete All" button.
 
